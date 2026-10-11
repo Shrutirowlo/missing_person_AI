@@ -1,0 +1,4 @@
+# Test-only deps for running the full API end-to-end WITHOUT a real MongoDB.
+# Production/staging must use a real MongoDB (see README + MONGODB_URL).
+-r requirements.txt
+mongomock-motor>=0.0.30

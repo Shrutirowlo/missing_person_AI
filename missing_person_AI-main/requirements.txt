@@ -1,0 +1,20 @@
+# Shared numerical and image-processing dependencies
+numpy<2.2
+opencv-python>=4.10,<5
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+
+# ArcFace
+insightface==0.7.3
+onnxruntime>=1.19,<2
+
+# CNN
+tensorflow>=2.20,<2.21
+
+# MediaPipe landmark extraction and KNN
+mediapipe>=0.10.30,<0.11
+
+# Django backend
+Django>=5.0,<6
+djangorestframework>=3.15,<4
+djangorestframework-simplejwt>=5.3,<6
